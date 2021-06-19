@@ -65,6 +65,7 @@ int main(){
     char arquivo[50];
 
     //recebendo o nome do arquivo
+    printf("-=-=- Altera Vogais para '*' -=-=-\n\n");
     printf("Digite o arquivo que deseja abrir: ");
     setbuf(stdin,NULL);
     fgets(arquivo,49,stdin);
